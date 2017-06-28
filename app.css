@@ -1,0 +1,13 @@
+td,th{
+    width: 120px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    height: 22px;
+}
+td:lastChild,th:lastChild{
+	 border-right: 1px solid #ddd;
+}
+td>input{
+	width:100%;
+	border:none;
+}
